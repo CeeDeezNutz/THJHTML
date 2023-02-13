@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>THJHTML  | Home</title>
+<link rel="icon" type="image/x-icon" href="favicon.png">
+<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="main">
+		<div class="navigation">
+			<span style="--i:0;--x:-1;--y:0;"><a href="https://thjgames.thjjjjj.repl.co/"><ion-icon name="game-controller-outline"></ion-icon></a></span> <!-- apps + games (game icon) -->
+      
+			<span style="--i:1;--x:1;--y:0;"><a href="https://thjflix-1.thjjjjj.repl.co/"><ion-icon name="tv-outline"></ion-icon></a></span> <!-- movies (tv icon) -->
+      
+			<span style="--i:2;--x:0;--y:-1;"><a href="livesports.html"><ion-icon name="american-football-outline"></a></ion-icon></span> <!-- live sports (football icon) -->
+      
+			<span style="--i:3;--x:-1;--y:1;"><a href="bookmark.html"><ion-icon name="bookmark-outline"></ion-icon></a></span> <!-- bookmark this page (bookmark icon) -->
+      
+			<span style="--i:4;--x:0;--y:1;"><a href="https://www.youtube.com/@THJ11"><ion-icon name="logo-youtube"></ion-icon></a></span> <!-- youtube (youtube icon) -->
+      
+			<span style="--i:5;--x:-1;--y:-1;"><a href="proxy.html"><ion-icon name="compass-outline"></ion-icon></a></span> <!-- proxy (compass icon)-->
+      
+			<span style="--i:6;--x:1;--y:-1;"><a href="#"><ion-icon name="caret-back-circle-outline"></ion-icon></a></span> <!-- replays (play icon) -->
+			<span style="--i:7;--x:1;--y:1;"><a href="discord.html"><ion-icon name="logo-discord"></ion-icon></a></span> <!-- discord (discord icon) -->
+      
+		</div>
+		<div class="close"><ion-icon name="close-outline"></ion-icon></div>
+	</div>
+
+	<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+	<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+	<script>
+		let navigation = document.querySelector('.navigation');
+		let close = document.querySelector('.close');
+		navigation.onclick = function(){
+			navigation.classList.add('active');
+		}
+		close.onclick = function(){
+			navigation.classList.remove('active');
+		}
+	</script>
+  
+</body>
+</html>
