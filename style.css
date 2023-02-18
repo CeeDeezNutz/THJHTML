@@ -1,104 +1,106 @@
+thj html css code backup
+
 *
 {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+margin: 0;
+padding: 0;
+box-sizing: border-box;
 }
-body 
+body
 {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	min-height: 100vh;
-	background: url('indexbackground.png');
+display: flex;
+justify-content: center;
+align-items: center;
+min-height: 100vh;
+background: url('indexbackground.png');
 }
-.main 
+.main
 {
-	position: relative;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	width: 170px;
-	height: 170px;
+position: relative;
+display: flex;
+justify-content: center;
+align-items: center;
+width: 170px;
+height: 170px;
 }
-.main .navigation 
+.main .navigation
 {
-	position: relative;
-	width: 40px;
-	height: 40px;
-	cursor: pointer;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	transition: 0.5s;
+position: relative;
+width: 40px;
+height: 40px;
+cursor: pointer;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: 0.5s;
 }
-.main .navigation span 
+.main .navigation span
 {
-	position: absolute;
-	width: 7px;
-	height: 7px;
-	background: #ffffff;
-	transform: translate(calc(14px * var(--x)),calc(14px * var(--y)));
-	transition: transform 0.5s, width 0.5s,height 0.5s, background 0.5s;
-	transition-delay: calc(0.1s * var(--i));
-	display: flex;
-	justify-content: center;
-	align-items: center;
+position: absolute;
+width: 7px;
+height: 7px;
+background: #ffffff;
+transform: translate(calc(14px * var(--x)),calc(14px * var(--y)));
+transition: transform 0.5s, width 0.5s,height 0.5s, background 0.5s;
+transition-delay: calc(0.1s * var(--i));
+display: flex;
+justify-content: center;
+align-items: center;
 }
 .main .navigation.active span
 {
-	width: 45px;
-	height: 45px;
-	background: #ffffff;
-	transform: translate(calc(60px * var(--x)),calc(60px * var(--y)));
+width: 45px;
+height: 45px;
+background: #ffffff;
+transform: translate(calc(60px * var(--x)),calc(60px * var(--y)));
 }
 
-.main .navigation span ion-icon 
+.main .navigation span ion-icon
 {
-	transition: 0.5s;
-	font-size: 0em;
-	color: #ffffff;
+transition: 0.5s;
+font-size: 0em;
+color: #7fc1da;
 }
-.main .navigation.active span ion-icon  
+.main .navigation.active span ion-icon
 {
-	font-size: 1.35em;
+font-size: 1.35em;
 }
-.main .navigation.active span:hover ion-icon 
+.main .navigation.active span:hover ion-icon
 {
-	color: #7fc1da;
-	filter: drop-shadow(0 0 0px #7fc1da) drop-shadow(0 0 0px #7fc1da) drop-shadow(0 0 0px #7fc1da);
+color: #7fc1da;
+filter: drop-shadow(0 0 0px #7fc1da) drop-shadow(0 0 0px #7fc1da) drop-shadow(0 0 0px #7fc1da);
 }
 .close
 {
-	position: absolute;
-	width: 7px;
-	height: 7px;
-	background: #fff;
-	transition: 0.5s;
-	transition-delay: 0.4s;
-	pointer-events: none;
-	display: flex;
-	justify-content: center;
-	align-items: center;
+position: absolute;
+width: 7px;
+height: 7px;
+background: #fff;
+transition: 0.5s;
+transition-delay: 0.4s;
+pointer-events: none;
+display: flex;
+justify-content: center;
+align-items: center;
 }
 
 .main .navigation.active ~ .close
 {
-	width: 40px;
-	height: 40px;
-	pointer-events: initial;
-	transition-delay: 0.8s;
-	background: ##94CDC6;
+width: 40px;
+height: 40px;
+pointer-events: initial;
+transition-delay: 0.8s;
+background: ##94CDC6;
 }
 .main .navigation ~ .close ion-icon
- {
-	font-size: 2em;
-	scale: 0;
-	color: #7fc1da;
-	transition: 0.5s;
+{
+font-size: 2em;
+scale: 0;
+color: #7fc1da;
+transition: 0.5s;
 }
 .main .navigation.active ~ .close ion-icon
 {
-	scale: 1s;
-	transition-delay: 1s;
+scale: 1s;
+transition-delay: 1s;
 }
