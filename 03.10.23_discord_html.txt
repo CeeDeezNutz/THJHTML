@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
 <link rel="icon" type="image/x-icon" href="favicon.png">
-    <title>THJ | Bookmarklets</title>
+    <title>THJ | Discord</title>
 
   <style>
     /* global */
@@ -38,6 +38,15 @@ a{
     color: #7A7C80;
     text-decoration: none;
 }
+
+#invite {
+  font-size: 1rem;
+}
+
+#invite1 {
+  font-size: 1rem;
+}
+
 /* section 1 */
 .section-1{
     padding-top: 40vh;
@@ -85,7 +94,7 @@ a{
 }
 /* animations / utilities */
 .section-2 a:hover{
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     color: #fff;
     cursor: pointer;
     transition: 0.2s;
@@ -123,16 +132,22 @@ a{
     <div class="grid-2">
         <div class="section-1">
             <i class="fas fa-code fa-5x white"></i>
-            <h2>THJ BOOKMARKLETS</h2>
+            <h2>THJ DISCORD</h2>
           <a href="index.html">⬅ Back To Home</a>
         </div>
         <div class="section-2">
-            <h2>Bookmarklets</h2>
+            <h2>THJ Discord</h2>
+          <p>The THJ Discord is a community server for proxies, kajigs, and all things unblocker related.</p>
+<br>
+          <p>Looking for methods? We can help you!</p>
+          <p>Need help setting up your own proxy? We have you covered!</p>
+          <br>
 
-            <a href="https://www.freecodecamp.org/news/what-are-bookmarklets/">How to use bookmarklets</a>
+          <p>With an amazing staff and an outstanding community, we provide a amazing space for everyone!</p>
 
-              <object            data="https://thjhtml.thjjjjj.repl.co/bookmarklets.txt" width="500"                  height="500" color="fff">
-              </object> 
+          <br>
+          <p><u><a href="https://discord.com/invite/XhZtjG83Zu" id="invite">https://discord.gg/thj</a></u><br></br> </p>
+
           
         </div>
     </div>

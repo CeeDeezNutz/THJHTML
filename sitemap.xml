@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://thjmath.com</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://thjmath.com"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://thjmath.com"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://thjmath.com"/>
+  </url>
+  <url>
+    <loc>https://thjflix.com</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://thjflix.com"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://thjflix.com"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://thjflix.com"/>
+  </url>
+  <url>
+    <loc>https://thjmath.com/proxy.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://thjmath.com/proxy.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://thjmath.com/proxy.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://thjmath.com/proxy.html"/>
+  </url>
+  <url>
+    <loc>https://thjmath.com/discord.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://thjmath.com/discord.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://thjmath.com/discord.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://thjmath.com/discord.html"/>
+  </url>
+  <url>
+    <loc>https://deltamathlogin.com/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://deltamathlogin.com/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://deltamathlogin.com/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://deltamathlogin.com/"/>
+  </url>
+</urlset>
